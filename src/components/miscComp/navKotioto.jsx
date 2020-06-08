@@ -14,27 +14,32 @@ const [NaviTri, SetTrigger] = useState(false)
     {console.log(props)}
 return(
     <>
-    <div className="KoriotoNav" >
-        <div className="NavLinkCont" > 
-            <NavLink className="NaviLink" to="" >
-                vive
-            </NavLink>
+    <div className="koriotoNavContainer" >
+        <div className="KoriotoNav" >
+            <div className="NavLinkCont" > 
+                <NavLink className="NaviLink" to="" >
+                    vive.live.kawsay
+                </NavLink>
+            </div>
+            <div className="NavLinkCont" > 
+                <NavLink className="NaviLink" to="" >
+                    escucha.hear.uyarii
+                </NavLink>
+            </div>
+            <div className="NavLinkCont" > 
+                <NavLink className="NaviLink" to="" >
+                    mira.watch.qhaway
+                </NavLink>
+            </div>
+            <div className="NavLinkCont" > 
+                <NavLink className="NaviLink" to="" >
+                    muestra.wear.p'achallina
+                </NavLink>
+            </div>
         </div>
-        <div className="NavLinkCont" > 
-            <NavLink className="NaviLink" to="" >
-                escucha
-            </NavLink>
-        </div>
-        <div className="NavLinkCont" > 
-            <NavLink className="NaviLink" to="" >
-                mira
-            </NavLink>
-        </div>
-        <div className="NavLinkCont" > 
-            <NavLink className="NaviLink" to="" >
-                muestra
-            </NavLink>
-        </div>
+    <div className="koriotoNaviDeco deco1" ></div>
+    <div className="koriotoNaviDeco deco2" ></div>
+    <div className="koriotoNaviDeco deco3" ></div>
     </div>
     </>
 )}

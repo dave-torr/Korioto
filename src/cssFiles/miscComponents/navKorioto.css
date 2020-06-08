@@ -1,0 +1,19 @@
+.KoriotoNav{
+        /* background-color: tomato; */
+        display: flex;
+        justify-content: center;
+        width: 100%;
+        position: fixed;
+        top: 0;
+        text-align: center;
+        z-index: 1;
+        padding-top: 21px;
+}
+
+.NaviLink{
+        color: white;
+        margin: 30px;
+        text-decoration: none;
+        font-size: 1.8em;
+        text-shadow: 2px 2px #4c4b49;;
+}

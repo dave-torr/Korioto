@@ -1,0 +1,15 @@
+[
+    {
+        "concertDate":"2010-10-28",
+        "location": "La Popular",
+        "maxCapacity": "150",
+        "Entrancefees": {
+            "standardFee": 7,
+            "onlineTier1": 4,
+            "onlineTier2": 5,
+            "onlineTier3": null,
+            
+
+        }
+    }
+]

@@ -1,11 +1,11 @@
-import React, { useState, useEffect } from 'react';
+import React from 'react';
 import "./../../cssFiles/miscComponents/navKorioto.css"
 import { NavLink } from "react-router-dom";
 
 
 function KoriotoNav(props){
 
-const [NaviTri, SetTrigger] = useState(false)
+// const [NaviTri, SetTrigger] = useState(false)
 
 
 

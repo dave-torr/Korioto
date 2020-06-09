@@ -1,8 +1,10 @@
 import React from 'react';
+// import ReactTransitionGroup from 'react-addons-transition-group' // ES6
+
 
 // services
 // services
-import InstagramEmbedding from "./../../services/instagramEmbedding.jsx"
+// import InstagramEmbedding from "./../../services/instagramEmbedding.jsx"
 
 // CSS
 // CSS
@@ -37,13 +39,13 @@ const parallaxKorioto=()=>{
     )
 }
 
-const intagramEmbedding=()=>{
-    return(
-        <>
+// const intagramEmbedding=()=>{
+//     return(
+//         <>
         
-        </>
-    )
-}
+//         </>
+//     )
+// }
 
     return(
         <div>

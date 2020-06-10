@@ -50,11 +50,11 @@ return (
                         }}>
                 </div>
                 <br></br>
-                <a href="https://www.instagram.com/hakanstagram_/" >
                 <div className="creditDiv">
-                    <CameraIcon /> hakanstagram
+                    <a href="https://www.instagram.com/hakanstagram_/" >
+                        <CameraIcon /> hakanstagram
+                    </a>
                 </div> 
-                </a>
             </div>
         </>
     )

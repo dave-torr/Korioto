@@ -53,6 +53,52 @@
   color: #61dafb;
 }
 
+.filler1{
+  margin-top: 21px;
+  margin-left: 6%;
+}
+
+.socialGrid1{
+  display: grid;
+  grid-template-areas: 
+  "spotify insta"
+  "facebook insta";
+}
+
+.spotiDiv{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  grid-area: spotify;
+}
+.facebookDiv{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  grid-area: facebook;
+}
+.instaDiv{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  grid-area: insta;
+}
+
+.app-fontface2{
+  width: 60%;
+  margin-left: 20%;
+}
+
+.filler1-Intro{
+  margin-bottom: 21px;
+  font-size: 1.8em;
+  padding-top: 12px;
+  padding-bottom: 12px;
+  padding-left: 21px;
+  background-color: rgb(72, 71, 71);
+  color: whitesmoke;
+}
+
 @keyframes App-icon-spin {
   from {
     transform: rotate(0deg);

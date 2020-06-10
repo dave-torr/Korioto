@@ -1,4 +1,7 @@
 import React, { useState, useEffect } from 'react';
+
+import CameraIcon from '@material-ui/icons/Camera';
+
 import parallawWide1 from "./../../assets/Images/parallax/wide1.png"
 import parallawWide2 from "./../../assets/Images/parallax/wide2.png"
 import parallawWide3 from "./../../assets/Images/parallax/wide3.png"
@@ -46,6 +49,12 @@ return (
                         transform: `translate(0px, 0px)`
                         }}>
                 </div>
+                <br></br>
+                <a href="https://www.instagram.com/hakanstagram_/" >
+                <div className="creditDiv">
+                    <CameraIcon /> hakanstagram
+                </div> 
+                </a>
             </div>
         </>
     )

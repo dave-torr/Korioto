@@ -39,6 +39,9 @@ function KoriotoLanding(){
         return(
             <>
             <div className="filler1">
+            <div className="fillerDeco1"> </div>
+            <div className="fillerDeco2"> </div>
+            <div className="fillerDeco3"> </div>
                 <div className="filler1-Intro" > 
                 conecta || connect || tupachiy </div>
                 <div className="socialGrid1" > 

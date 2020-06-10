@@ -5,7 +5,7 @@ a{
 .creditDiv{
     color: black;
     /* font-family: "Rock Salt"; */
-    font-size: 1.5em;
+    font-size: 1em;
     margin-left: 30px;
     margin-right: 30px;
     text-align: end;
@@ -21,6 +21,9 @@ a{
 
 @media screen and (max-width: 1100px){
     .parallaxBackground{
-        background-position-y: 35%;
+        background-position-y: bottom;
+    }
+    .creditDiv{
+        font-size: 1em;
     }
 }

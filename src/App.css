@@ -8,3 +8,27 @@
 
 }
 
+.placeholderGeneral{
+    height: 100vh;
+    background-color: rgb(64, 47, 47);
+    color: white;
+    display: flex;
+    flex-direction: column;
+    padding-top: 200px;
+}
+
+.placeholder{
+    width: 40%;
+    margin-left: 30%;
+    font-size: 1.8em;
+}
+
+@media screen and (max-width:700px){
+*{
+    font-family: 'Work Sans', sans-serif;
+    overflow-x: hidden;
+
+}
+
+}
+

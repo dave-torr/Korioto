@@ -52,7 +52,7 @@ return (
                 <br></br>
                 <div className="creditDiv">
                     <a href="https://www.instagram.com/hakanstagram_/" >
-                        <CameraIcon /> hakanstagram
+                        hakanstagram <CameraIcon /> 
                     </a>
                 </div> 
             </div>

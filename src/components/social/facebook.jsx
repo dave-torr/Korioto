@@ -10,9 +10,9 @@ export function FacebookFeed(){
 }
 export function FacebookFeedSmall(){
     return(
-        <>
-        <iframe src="https://www.facebook.com/plugins/page.php?href=https%3A%2F%2Fwww.facebook.com%2Fkoriotoec%2F&width=340&height=150&small_header=false&adapt_container_width=true&hide_cover=false&show_facepile=false&appId=2656912181222013" width="340" height="150" 
+        <div className="facebookEmbedContainer">
+        <iframe src="https://www.facebook.com/plugins/page.php?href=https%3A%2F%2Fwww.facebook.com%2Fkoriotoec%2F&width=340&height=150&small_header=false&adapt_container_width=true&hide_cover=false&show_facepile=false&appId=2656912181222013" width="340" height="130" 
         style={{border:"none", overflow:"hidden"}} scrolling="no" frameborder="0" allowTransparency="true" allow="encrypted-media"></iframe>
-        </>
+        </div>
     )
 }

@@ -10,7 +10,7 @@ import { NavLink } from "react-router-dom";
 
 const useStyles = makeStyles({
   list: {
-    width: 330,
+    width: 300,
   },
   fullList: {
     width: 'auto',
@@ -85,22 +85,22 @@ return(
     {/* on Widescreen operational AF */}
         <div className="KoriotoNav" >
             <div className="NavLinkCont" > 
-                <NavLink className="NaviLink" to="" >
+                <NavLink className="NaviLink" to="/live" >
                     vive.live.kawsay
                 </NavLink>
             </div>
             <div className="NavLinkCont" > 
-                <NavLink className="NaviLink" to="" >
+                <NavLink className="NaviLink" to="/hear" >
                     escucha.hear.uyarii
                 </NavLink>
             </div>
             <div className="NavLinkCont" > 
-                <NavLink className="NaviLink" to="" >
+                <NavLink className="NaviLink" to="/mira" >
                     mira.watch.qhaway
                 </NavLink>
             </div>
             <div className="NavLinkCont" > 
-                <NavLink className="NaviLink" to="" >
+                <NavLink className="NaviLink" to="/muestra" >
                     muestra.wear.p'achallina
                 </NavLink>
             </div>

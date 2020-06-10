@@ -8,6 +8,7 @@ import {
   // Redirect
 } from "react-router-dom";
 import KoriotoNav from './components/miscComp/navKotioto';
+import Footer from './components/miscComp/footer';
 
 function App() {
   return (
@@ -28,6 +29,7 @@ function App() {
 
 
       </Switch>
+      <Footer />
     </div>
   );
 }

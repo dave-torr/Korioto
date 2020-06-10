@@ -5,10 +5,10 @@
 }
 
 .App-icon2{
-    height: 120vmin;
-  pointer-events: none;
-    position: absolute;
 
+    height: 120vmin;
+    pointer-events: none;
+    position: absolute;
 }
 
 .app-fontface{
@@ -46,7 +46,6 @@
   justify-content: center;
   font-size: calc(10px + 2vmin);
   color: white;
-  overflow-x: hidden;
 
 }
 
@@ -63,10 +62,7 @@
   }
 }
 
-.parralaxContainer{
-  height: 40vh;
-  background-color: rgb(144, 18, 18);
-}
+
 
 @media screen and (max-width:700px){
 .app-fontface{
@@ -75,4 +71,9 @@
     bottom: 191px;
     text-shadow: 2px 2px red;
   }
+
+  .App-icon2{
+    height: 100vmin;
+
+}
 }

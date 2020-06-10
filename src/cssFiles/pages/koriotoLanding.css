@@ -120,6 +120,17 @@
 
   .App-icon2{
     height: 100vmin;
+  }
 
-}
+  .socialGrid1{
+    display: grid;
+    grid-template-areas: 
+    "spotify"
+    "facebook"
+    "insta";
+    }
+
+    .filler1-Intro{
+      font-size: 1.2em;
+  }
 }

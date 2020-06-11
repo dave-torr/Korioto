@@ -85,22 +85,27 @@ return(
     {/* on Widescreen operational AF */}
         <div className="KoriotoNav" >
             <div className="NavLinkCont" > 
-                <NavLink className="NaviLink" to="/live" >
+                <NavLink className="NaviLink" to="/" onClick={()=> window.scrollTo(0, 0)}>
+                    home
+                </NavLink>
+            </div>
+            <div className="NavLinkCont" > 
+                <NavLink className="NaviLink" to="/live" onClick={()=> window.scrollTo(0, 0)}>
                     vive.live.kawsay
                 </NavLink>
             </div>
             <div className="NavLinkCont" > 
-                <NavLink className="NaviLink" to="/hear" >
+                <NavLink className="NaviLink" to="/hear" onClick={()=> window.scrollTo(0, 0)} >
                     escucha.hear.uyarii
                 </NavLink>
             </div>
             <div className="NavLinkCont" > 
-                <NavLink className="NaviLink" to="/mira" >
+                <NavLink className="NaviLink" to="/mira" onClick={()=> window.scrollTo(0, 0)}>
                     mira.watch.qhaway
                 </NavLink>
             </div>
             <div className="NavLinkCont" > 
-                <NavLink className="NaviLink" to="/muestra" >
+                <NavLink className="NaviLink" to="/muestra" onClick={()=> window.scrollTo(0, 0)}>
                     muestra.wear.p'achallina
                 </NavLink>
             </div>

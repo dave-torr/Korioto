@@ -1,9 +1,6 @@
 import React from 'react';
-import {SpotifyFollowButton, SpotifyPlaySec} from "../social/spotify"
-import {FacebookFeed, FacebookFeedSmall } from "../social/facebook"
-import {YoutubeVideoEmbed  } from "../social/youtube"
-import {InstaEmbbed} from "../social/insta"
 
+import {LivePageLanding } from "./live"
 // import ReactTransitionGroup from 'react-addons-transition-group' // ES6
 
 
@@ -20,7 +17,7 @@ import fontCopper from "../../assets/Icons/fontFaceCppr.png"
 
 import ParallaxGeneral from "./../miscComp/parallax"
 
-function KoriotoLanding(){
+function KoriotoLanding(props){
 
     const landingFunk=()=>{
         return(
@@ -35,29 +32,7 @@ function KoriotoLanding(){
     }
 
 
-    const landingFiller1=()=>{
-        return(
-            <>
-            <div className="filler1">
-            <div className="fillerDeco1"> </div>
-            <div className="fillerDeco2"> </div>
-            <div className="fillerDeco3"> </div>
-                <div className="filler1-Intro" > 
-                conecta || connect || tupachiy </div>
-                <div className="socialGrid1" > 
-                    <div className="spotiDiv" > <SpotifyFollowButton /> </div>
-                    <div className="facebookDiv" > <FacebookFeedSmall /> </div>
-                    <div className="instaDiv" > <InstaEmbbed /> </div>
-                </div>
-            </div>
-                <img src={fontCopper} className="app-fontface2" alt="korioto-fontface" />
-            </>
-        )
-    }
-
-
-
-
+    
     return(
         <div>
 
@@ -65,8 +40,7 @@ function KoriotoLanding(){
     
             <ParallaxGeneral />
 
-            {landingFiller1()}
-
+            <LivePageLanding   tourDates= {props.tourDates} />
         </div>
     )
 }

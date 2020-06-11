@@ -1,13 +1,56 @@
 [
     {
-        "concertDate":"2010-10-28",
+        "eventDate":"2010-10-28",
+        "eventName":"Miti Miti",
         "location": "La Popular",
+        "city":"Quito - Ecuador",
         "maxCapacity": "150",
-        "Entrancefees": {
+        "seatingCapacity": 50,
+        "standingCapacity": 100,
+        "21+": false,
+        "entranceFees": {
             "standardFee": 7,
-            "onlineTier1": 4,
-            "onlineTier2": 5,
-            "onlineTier3": null,
+            "onlineTier1": null,
+            "onlineTier2": null,
+            "onlineTier3": null
+            
+
+        }
+    },
+    {
+        "eventDate":"2010-11-03",
+        "eventName":"Yacumbia",
+        "location": "Ichimbia",
+        "city":"Quito - Ecuador",
+        "maxCapacity": 330,
+        "seatingCapacity": 30,
+        "standingCapacity": 300,
+        "21+": false,
+        "entranceFees": {
+            "standardFee": 25,
+            "onlineTier1": 15,
+            "onlineTier1ExDa": "2020-10-15",
+            "onlineTier2": 20,
+            "onlineTier2ExDa": "2020-10-31",
+            "onlineTier3": null
+            
+
+        }
+    },
+    {
+        "eventDate":"2010-11-08",
+        "eventName":null,
+        "location": "Santa Rosa Brewery",
+        "city":"Quito - Ecuador",
+        "maxCapacity": 90,
+        "seatingCapacity": 50,
+        "standingCapacity": 40,
+        "21+": false,
+        "entranceFees": {
+            "standardFee": 10,
+            "onlineTier1": 5,
+            "onlineTier2": 7,
+            "onlineTier3": null
             
 
         }

@@ -1,4 +1,4 @@
-import React from 'react';
+import React, { useState } from 'react';
 import "./App.css"
 import KoriotoLanding from "./components/pages/koriotoLanding"
 
@@ -12,8 +12,14 @@ import KoriotoNav from './components/miscComp/navKotioto';
 import Footer from './components/miscComp/footer';
 import {PlaceholderPage} from "./components/pages/placeholder"
 
+import sampleTourDates from "./data/concertSample.json"
+
+import {SocialComponent1} from "./components/social/socialComponents"
 
 function App() {
+
+  const [tourDates, setDates] = useState(sampleTourDates);
+
   return (
     <div className="App">
 
@@ -25,7 +31,7 @@ function App() {
                 render={props =>
                   <LivePage
                     {...props}
-
+                    tourDates= {tourDates}
                   />}
                 />
                 <Route 
@@ -58,6 +64,7 @@ function App() {
                 exact path="/"
                 render={props =>
                   <KoriotoLanding
+                    tourDates= {tourDates}
                     {...props}
 
                   />}
@@ -67,6 +74,7 @@ function App() {
 
       </Switch>
       <Footer />
+      <SocialComponent1 />
     </div>
   );
 }

@@ -1,4 +1,112 @@
 #livePageGeneral{
-    background-color: rgb(41, 38, 38);
-    height: 100vmin;
+    background-color: rgb(19, 18, 18);
+}
+
+
+.liveLogo{
+    margin-top: 100px;
+    margin-bottom: 80px;
+}
+.liveLogoImg{
+    width: 40%;
+    margin-left: 6%;
+}
+
+.liveDeco1{
+    margin-top: 40px;
+    width: 100%;
+    margin-left: 6%;
+    height: 1px;
+    background-color: rgb(248, 248, 248);
+}
+.liveDeco2{
+    margin-top: 3px;
+    width: 100%;
+    margin-left: 6%;
+    height: 1px;
+    background-color: rgb(132, 132, 132);
+}
+.liveDeco3{
+    margin-top: 3px;
+    width: 100%;
+    margin-left: 6%;
+    height: 1px;
+    background-color: rgb(106, 115, 30);
+}
+.liveDeco4{
+    margin-top: 3px;
+    width: 100%;
+    margin-left: 6%;
+    height: 1px;
+    background-color: rgb(62, 68, 167);
+}
+
+.liveDeco5{
+    margin-top: 3px;
+    width: 100%;
+    margin-left: 6%;
+    height: 1px;
+    background-color: rgb(67, 174, 76);
+}
+.liveDeco6{
+    margin-top: 3px;
+    width: 100%;
+    margin-left: 6%;
+    height: 1px;
+    background-color: rgb(177, 196, 125);
+}
+.LiveIntro{
+    margin-left: 6%;
+    margin-top: 4px;
+    color: white;
+    font-size: 1.7em;
+
+}
+
+.eachConcert{
+    width: 80%;
+    margin-left: 10%;
+    color: white;
+    border-bottom: solid 1px rgb(159, 159, 159);
+    grid-template-columns: repeat(6, 1fr);
+    display: grid;
+    padding-bottom: 21px;
+    margin-bottom: 44px;
+    grid-template-areas: 
+    ". eventDate eventDate .  eventLocation ."
+    ". . EventName EventName . eventCity "
+    ". . eventPrice . . eventCapacity";
+}
+
+.aConcertDate{
+    grid-area: eventDate;
+    margin: 10px;
+    font-size: 1.8em;
+}
+.aConcertLocation{
+    font-size: 1.4em;
+    margin: 10px;
+    grid-area: eventLocation;
+}
+.aConcertCapacity{
+    margin: 10px;
+    grid-area: eventCapacity;
+}
+.aConcertCity{
+    margin: 10px;
+    grid-area: eventCity;
+}
+
+.aEventName{
+    grid-area: EventName;
+    font-size: 2em;
+
+}
+.aEventPrice{
+    grid-area: eventPrice;
+
+}
+.aEventPrice2{
+    grid-area: eventPrice;
+    font-size: 2em;
 }

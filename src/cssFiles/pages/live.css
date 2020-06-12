@@ -62,6 +62,12 @@
     font-size: 1.7em;
 
 }
+.LiveIntro2{
+    margin-left: 6%;
+    margin-top: 4px;
+    color: rgb(240, 240, 240);
+    font-size: 2.3em;
+}
 
 .eachConcert{
     width: 80%;
@@ -82,11 +88,16 @@
     grid-area: eventDate;
     margin: 10px;
     font-size: 1.8em;
+    padding-left: 10px;
+    border-left: solid 1.5px rgb(157, 255, 0);
+
 }
 .aConcertLocation{
     font-size: 1.4em;
     margin: 10px;
     grid-area: eventLocation;
+    border-bottom: solid 1.5px rgba(241, 118, 17, 0.816);
+
 }
 .aConcertCapacity{
     margin: 10px;
@@ -100,7 +111,7 @@
 .aEventName{
     grid-area: EventName;
     font-size: 2em;
-
+    text-shadow: 2px 2px #1749bf;
 }
 .aEventPrice{
     grid-area: eventPrice;
@@ -109,4 +120,50 @@
 .aEventPrice2{
     grid-area: eventPrice;
     font-size: 2em;
+}
+
+.landingTicketsBtn{
+    margin-top: 50px;
+    padding: 10px;
+    margin-bottom: 50px;
+    color: white;
+    font-size: 1.2em;
+    width: 40%;
+    margin-left: 30%;
+    text-align: center;
+    border: solid 1px red;
+    transition: all ease-in 0.5s;
+}
+
+.landingTicketsBtn:hover{
+    background-color: rgb(201, 198, 198);
+    color: black;
+    border: solid 1px rgb(32, 182, 50);
+
+}
+
+@media screen and (max-width:700px){
+
+    .aConcertDate{
+    font-size: 1.4em;
+    }
+
+    .LiveIntro2{
+        font-size: 1.5em;
+    }
+    .aEventName{
+        font-size: 2.7em;
+        margin-top: 21px;
+        margin-bottom: 41px;
+    }
+    .eachConcert{
+    width: 90%;
+    margin-left: 5%;
+    grid-template-columns: repeat(6, 1fr);
+    display: grid;
+    grid-template-areas: 
+    "eventDate eventDate eventDate . eventLocation eventLocation"
+    "EventName EventName EventName . eventCity eventCity"
+    ". eventPrice eventPrice . eventCapacity eventCapacity";
+}
 }

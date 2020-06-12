@@ -66,9 +66,12 @@ export function LivePageLanding(props){
                     <div className="liveDeco4"> </div>
                     <div className="liveDeco5"> </div>
                     <div className="liveDeco6"> </div>
-                    <div className="LiveIntro" > 
+                    <div className="LiveIntro2" > 
                     pronto || soon || kawsay </div>
                 </div>
+
+
+
 
             <div className="eachConcert" >
                 <div className="aConcertDate" >
@@ -90,6 +93,8 @@ export function LivePageLanding(props){
                 {props.tourDates[0].eventName}
                 </div>
             </div> 
+
+            <div className="landingTicketsBtn" > TICKETS </div>
             </div>
         </>
     )

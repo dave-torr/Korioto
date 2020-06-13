@@ -54,6 +54,10 @@
 
 @media screen and (max-width: 700px){
     .astronautIcon{
-            left: 4%;
+    left: 4%;
+    }
+    .planetIcon{
+            right: 12%;
+ 
     }
 }

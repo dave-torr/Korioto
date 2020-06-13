@@ -62,7 +62,7 @@ export function LivePageLanding(props){
     return(
         <>
             <div id="livePageGeneral">
-                <div className="liveLogo" > 
+                <div className="liveLogo2" > 
                     <div className="liveDeco4"> </div>
                     <div className="liveDeco5"> </div>
                     <div className="liveDeco6"> </div>

@@ -27,6 +27,13 @@
     animation: astronautBounce 5s infinite;
     animation-direction: alternate; 
 }
+.planetIcon{
+    width: 70px;
+    right: 38%;
+    position: absolute;
+    transform: rotate(25deg);
+    animation: PlanetSpin 5s infinite;
+}
 
 @keyframes astronautBounce{
     from{
@@ -34,7 +41,15 @@
     } to {
     transform: translate(-15px, -25px);
     }
+}
 
+@keyframes PlanetSpin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
 }
 
 @media screen and (max-width: 700px){

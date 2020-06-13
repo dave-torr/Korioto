@@ -1,6 +1,7 @@
 import React from 'react';
 import "./../../cssFiles/miscComponents/footer.css";
 import astronautIcon from "./../../assets/Icons/astronaut.svg"
+import planetIcon from "./../../assets/Icons/creditPlanet.svg"
 
 export function Footer(props){
 
@@ -22,8 +23,11 @@ export function Footer(props){
                 <div className="wairaNuna">
                 {`{ waira.nuna }`}
                 </div> 
+                <br></br>
 
                 <img src={astronautIcon} className="astronautIcon"
+                />
+                <img src={planetIcon} className="planetIcon"
                 />
 
             </div>

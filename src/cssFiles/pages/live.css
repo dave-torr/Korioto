@@ -7,6 +7,10 @@
     margin-top: 100px;
     margin-bottom: 80px;
 }
+.liveLogo2{
+    margin-top: 21px;
+    margin-bottom: 80px;
+}
 .liveLogoImg{
     width: 40%;
     margin-left: 6%;
@@ -144,6 +148,10 @@
 
 @media screen and (max-width:700px){
 
+    .liveLogo{
+        margin-top: 21px;
+        margin-bottom: 80px;
+    }
     .aConcertDate{
     font-size: 1.4em;
     }

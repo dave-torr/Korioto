@@ -5,7 +5,6 @@
 }
 
 .App-icon2{
-
     height: 120vmin;
     pointer-events: none;
     position: absolute;
@@ -38,7 +37,6 @@
     /* background-image: url("https://images.unsplash.com/photo-1582035100994-9ddfc34b1dae?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=334&q=80"); */
   background-size: cover;
   background-color: #282c34;
-  /* transform: rotate(90deg); */
   min-height: 100vh;
   display: flex;
   flex-direction: column;
@@ -78,7 +76,7 @@
 }
 
 .facebookEmbedContainer{
-  grid-area: spotify;
+  /* grid-area: spotify; */
       box-shadow: 0px 0px 0px 0.5px rgba(50, 50, 93, 0.1),
       0px 0px 10px 0px rgba(50, 50, 93, 0.1), 
       0px 0px 1.5px 0px rgba(0, 0, 0, 0.07);
@@ -136,6 +134,12 @@
 
 
 
+@media screen and (max-width:1200px){
+  .App-icon2{
+    height: 40vmin;
+  }
+
+}
 @media screen and (max-width:700px){
 .app-fontface{
     position: absolute;
@@ -144,9 +148,10 @@
     text-shadow: 2px 2px red;
   }
 
-  .App-icon2{
-    height: 40vmin;
-  }
+.facebookDiv{
+  margin-top: 41px;
+  margin-bottom: 41px;
+}
 
   .socialGrid1{
     display: grid;

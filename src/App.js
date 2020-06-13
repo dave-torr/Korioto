@@ -9,7 +9,7 @@ import {
 } from "react-router-dom";
 import {LivePage} from "./components/pages/live"
 import KoriotoNav from './components/miscComp/navKotioto';
-import Footer from './components/miscComp/footer';
+import {Footer} from './components/miscComp/footer';
 import {PlaceholderPage} from "./components/pages/placeholder"
 
 import sampleTourDates from "./data/concertSample.json"
@@ -70,11 +70,10 @@ function App() {
                   />}
                 />
 
-
-
       </Switch>
-      <Footer />
+
       <SocialComponent1 />
+      <Footer />
     </div>
   );
 }

@@ -1,8 +1,44 @@
 .generalFooterCont{
+    padding-top: 40px;
     width: 100%;
-    /* height: 400px; */
+    background-color: rgb(83, 83, 83);    
+    color: cornsilk;
     display: flex;
     flex-direction: column;
-    justify-content: center;
-    align-items: center;
+    text-align: center;
+
+
+}
+
+.creditsDiv{
+    font-size: 1.5em;
+}
+
+.wairaNuna{
+    font-size: 1.5em;
+    text-shadow: 2px 3px black;
+}
+
+.astronautIcon{
+    width: 60px;
+    left: 40%;
+    position: absolute;
+    transform: rotate(25deg);
+    animation: astronautBounce 5s infinite;
+    animation-direction: alternate; 
+}
+
+@keyframes astronautBounce{
+    from{
+    transform: translate(15px, 25px);
+    } to {
+    transform: translate(-15px, -25px);
+    }
+
+}
+
+@media screen and (max-width: 700px){
+    .astronautIcon{
+            left: 4%;
+    }
 }

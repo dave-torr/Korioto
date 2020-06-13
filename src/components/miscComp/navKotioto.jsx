@@ -43,6 +43,13 @@ function KoriotoNav(props){
             <br></br>
             <br></br>
             <br></br>
+            <div><NavLink to="/" className="drawerLinks" onClick={()=>{window.scrollTo(0,0)}}>
+                home
+            </NavLink></div>
+                <br></br>
+                <br></br>
+                <br></br>
+
             <div><NavLink to="/live" className="drawerLinks" onClick={()=>{window.scrollTo(0,0)}}>
                 vive.live.kawsay
             </NavLink></div>

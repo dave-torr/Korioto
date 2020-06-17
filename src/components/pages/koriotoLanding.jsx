@@ -1,5 +1,4 @@
 import React, { useState } from 'react';
-import { Transition, animated } from 'react-spring/renderprops';
 import {LivePageLanding } from "./live";
 
 // TRANSITION GROUP
@@ -17,7 +16,6 @@ import "./../../cssFiles/pages/koriotoLanding.css";
 import iconCopper from "../../assets/Icons/iconCopper.png"
 import iconTransparency from "./../../assets/Icons/iconTransparency20pcBlk.png"
 import fontWhite from "../../assets/Icons/fontFaceWht.png"
-import fontCopper from "../../assets/Icons/fontFaceCppr.png"
 
 import ParallaxGeneral from "./../miscComp/parallax"
 

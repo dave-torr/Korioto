@@ -1,6 +1,6 @@
 import React from 'react';
-import {SpotifyFollowButton, SpotifyPlaySec} from "./spotify"
-import {FacebookFeed, FacebookFeedSmall } from "./facebook"
+import {SpotifyFollowButton} from "./spotify"
+import {FacebookFeedSmall } from "./facebook"
 import {InstaEmbbed} from "./insta"
 
 import fontCopper from "../../assets/Icons/fontFaceCppr.png"

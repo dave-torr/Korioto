@@ -18,7 +18,7 @@ import sampleTourDates from "./data/concertSample.json"
 import {SocialComponent1} from "./components/social/socialComponents"
 
 function App() {
-
+  // eslint-disable-next-line
   const [tourDates, setDates] = useState(sampleTourDates);
 
   return (

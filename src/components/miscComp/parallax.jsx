@@ -1,4 +1,4 @@
-import React, { useState, useEffect } from 'react';
+import React, { useEffect } from 'react';
 
 import CameraIcon from '@material-ui/icons/Camera';
 
@@ -18,9 +18,10 @@ import "./../../cssFiles/miscComponents/parallax.css"
 const wideScreenImgArr=[parallawWide1, parallawWide2, parallawWide3, parallawWide4, parallawWide5];
 const tallScreenImgArr=[parallawTall1, parallawTall2, parallawTall3, parallawTall4, parallawTall5];
 
-let randomPic;
 
 function ParallaxGeneral(){
+    // eslint-disable-next-line
+let randomPic;
 
     useEffect(()=>{
 

@@ -217,7 +217,7 @@
 
   .landingExplainer{
     margin-top: 21px;
-  font-size: 1.5em;
+    font-size: 1.5em;
     width: 450px;
   }
 
@@ -240,6 +240,21 @@
   }
 
 }
+@media screen and (max-width:1200px){
+  .explanierSPA{
+    margin-top: 6%;
+    padding-left: 6%;
+    margin-right: 15%;
+    border-left: rgba(180, 100, 47, 0.911) 100px solid;
+  }
+  .explanierENG{
+    margin-top: 6%;
+    padding-right: 12%;
+    margin-left: 10%;
+    border-right: rgba(12, 50, 156, 0.781) 100px solid;
+  }
+}
+
 @media screen and (max-width:700px){
 
 
@@ -328,6 +343,9 @@
 
   .landingExplainer{
     margin-top: 21px;
+      font-size: 1em;
+    width: auto;
+
   }
 
   .langContent::first-letter{

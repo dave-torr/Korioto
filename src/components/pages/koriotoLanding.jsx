@@ -4,7 +4,6 @@ import {LivePageLanding } from "./live";
 
 // TRANSITION GROUP
 // TRANSITION GROUP
-import { CSSTransition } from 'react-transition-group';
 
 
 // CSS

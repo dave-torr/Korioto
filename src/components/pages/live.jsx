@@ -38,7 +38,7 @@ export function LivePage(props){
             </>
         )
     }
-
+    
     return(
         <>
             <div id="livePageGeneral">
@@ -58,7 +58,7 @@ export function LivePage(props){
     )
 }
 export function LivePageLanding(props){
-
+    // console.log(props)
     return(
         <>
             <div id="livePageGeneral">

@@ -12,7 +12,7 @@ export function SpotifyFollowButton(){
     )
 }
 
-export function SpotifyPlaySec(){
+export function SpotifyPlayComp(){
     return (
         <>
         <div className="SpotyPlaySec"> 

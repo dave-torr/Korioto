@@ -71,12 +71,12 @@ function KoriotoNav(props){
                 <br></br>
                 <br></br>
             
-            <div><NavLink to="/wear" className="drawerLinks" onClick={()=>{window.scrollTo(0,0)}}>
+            {/* <div><NavLink to="/muestra" className="drawerLinks" onClick={()=>{window.scrollTo(0,0)}}>
                 muestra.wear.p'achallina
             </NavLink></div>
                 <br></br>
                 <br></br>
-                <br></br>
+                <br></br> */}
             
             </div>
         </div>
@@ -96,26 +96,29 @@ return(
                     home
                 </NavLink>
             </div>
+
             <div className="NavLinkCont" > 
                 <NavLink className="NaviLink" to="/live" onClick={()=> window.scrollTo(0, 0)}>
                     vive.live.kawsay
                 </NavLink>
             </div>
+
             <div className="NavLinkCont" > 
-                <NavLink className="NaviLink" to="/hear" onClick={()=> window.scrollTo(0, 0)} >
+                <NavLink className="NaviLink" to="/escucha" onClick={()=> window.scrollTo(0, 0)} >
                     escucha.hear.uyarii
                 </NavLink>
             </div>
+
             <div className="NavLinkCont" > 
-                <NavLink className="NaviLink" to="/mira" onClick={()=> window.scrollTo(0, 0)}>
+                <NavLink className="NaviLink" to="/qhaway" onClick={()=> window.scrollTo(0, 0)}>
                     mira.watch.qhaway
                 </NavLink>
             </div>
-            <div className="NavLinkCont" > 
+            {/* <div className="NavLinkCont" > 
                 <NavLink className="NaviLink" to="/muestra" onClick={()=> window.scrollTo(0, 0)}>
                     muestra.wear.p'achallina
                 </NavLink>
-            </div>
+            </div> */}
 
             <div className="burger" onClick={toggleDrawer("right", true)} > 
                 <div className="burgerLine" ></div>
@@ -131,7 +134,6 @@ return(
             {list("right")}
           </Drawer>
         
-
     </div>
     </nav>
     </>

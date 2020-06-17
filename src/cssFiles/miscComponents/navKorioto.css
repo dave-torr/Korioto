@@ -23,7 +23,7 @@ nav{
         display: flex;
         justify-content: center;
         background-color: rgba(220, 220, 220, 0.7);
-        height: 40px;
+        height: 30px;
 }
 .KoriotoNav:hover{
         transition: all 0.35s ease-in;
@@ -46,7 +46,7 @@ nav{
 
 .NaviLink{
         color: rgb(0, 0, 0);
-        margin: 15px;
+        margin: 5px 15px;
         text-decoration: none;
         font-size: 1.5em;
         transition: all 0.5s ease-in;

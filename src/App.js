@@ -11,6 +11,7 @@ import {LivePage} from "./components/pages/live"
 import KoriotoNav from './components/miscComp/navKotioto';
 import {Footer} from './components/miscComp/footer';
 import {PlaceholderPage} from "./components/pages/placeholder"
+import {HearPage} from "./components/pages/hear"
 
 import sampleTourDates from "./data/concertSample.json"
 
@@ -35,15 +36,15 @@ function App() {
                   />}
                 />
                 <Route 
-                exact path="/hear"
+                exact path="/escucha"
                 render={props =>
-                  <PlaceholderPage
+                  <HearPage
                     {...props}
 
                   />}
                 />
                 <Route 
-                exact path="/mira"
+                exact path="/qhaway"
                 render={props =>
                   <PlaceholderPage
                     {...props}

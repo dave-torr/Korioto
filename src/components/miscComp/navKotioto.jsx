@@ -120,11 +120,11 @@ return(
                 </NavLink>
             </div> */}
 
-            <div className="burger" onClick={toggleDrawer("right", true)} > 
+            {/* <div className="burger" onClick={toggleDrawer("right", true)} > 
                 <div className="burgerLine" ></div>
                 <div className="burgerLine" ></div>
                 <div className="burgerLine" ></div>
-              </div>
+              </div> */}
         </div>
     <div className="koriotoNaviDeco deco1" ></div>
     <div className="koriotoNaviDeco deco2" ></div>

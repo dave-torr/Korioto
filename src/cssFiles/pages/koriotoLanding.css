@@ -255,6 +255,14 @@
   }
 }
 
+
+.landingEventPlaceholder{
+  color: whitesmoke;
+  font-size: 2em;
+  text-align: center;
+  margin: 21px;
+}
+
 @media screen and (max-width:700px){
 
 

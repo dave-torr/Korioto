@@ -75,11 +75,13 @@ export function LivePageLanding(props){
                 </div>
 
 
+{/* Highlighted upcming event */}
+{/* Highlighted upcming event */}
+{/* Highlighted upcming event */}
 
-
-            <div className="eachConcert" >
+            {/* <div className="eachConcert" >
                 <div className="aConcertDate" >
-                {props.tourDates[0].eventDate}
+                {props.tourDates[0].eventDate} 
                 </div>
                 <div className="aConcertLocation" >
                 {props.tourDates[0].location}
@@ -98,7 +100,15 @@ export function LivePageLanding(props){
                 </div>
             </div> 
 
-            <div className="landingTicketsBtn" > TICKETS </div>
+            <div className="landingTicketsBtn" > TICKETS </div> */}
+
+
+    {/* PLACEHOLDER */}
+        <div className="landingEventPlaceholder"> Pronto tendremos nuevos eventos para ti!
+            <br></br> 
+            <br></br> 
+            We will soon have new events for you!
+        </div>
             </div>
         </>
     )

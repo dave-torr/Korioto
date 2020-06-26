@@ -90,7 +90,7 @@ return(
     {/* on Widescreen operational AF */}
     {/* on Widescreen operational AF */}
     {/* on Widescreen operational AF */}
-        <div className="KoriotoNav" >
+        {/* <div className="KoriotoNav" >
             <div className="NavLinkCont" > 
                 <NavLink className="NaviLink" to="/" onClick={()=> window.scrollTo(0, 0)}>
                     home
@@ -114,18 +114,18 @@ return(
                     mira.watch.qhaway
                 </NavLink>
             </div>
-            {/* <div className="NavLinkCont" > 
+            <div className="NavLinkCont" > 
                 <NavLink className="NaviLink" to="/muestra" onClick={()=> window.scrollTo(0, 0)}>
                     muestra.wear.p'achallina
                 </NavLink>
-            </div> */}
+            </div>
 
-            {/* <div className="burger" onClick={toggleDrawer("right", true)} > 
+            <div className="burger" onClick={toggleDrawer("right", true)} > 
                 <div className="burgerLine" ></div>
                 <div className="burgerLine" ></div>
                 <div className="burgerLine" ></div>
-              </div> */}
-        </div>
+              </div>
+        </div> */}
     <div className="koriotoNaviDeco deco1" ></div>
     <div className="koriotoNaviDeco deco2" ></div>
     <div className="koriotoNaviDeco deco3" ></div>

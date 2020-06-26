@@ -73,7 +73,7 @@ function KoriotoLanding(props){
                             Korioto es una banda de música Fusión que utiliza la música tradicional Ecuatoriana como recurso inspiracional para sus composiciones.
                             </div>
                         <div className="landingExplainer langContent2" >
-                            Korioto quiere mostrar cualidades sonoras y rítmicas tradicionales del ecuador, enriqueciendo las nuevas corrientes urbanas.
+                            Korioto quiere mostrar cualidades sonoras y rítmicas tradicionales del Ecuador, enriqueciendo las nuevas corrientes urbanas.
                             </div>
                         <div className="landingExplainer langContent3" >
                             Los temas de sus letras embarcan distintos temas, desde vivencias personales hasta el llamado a hacer una sociedad mas justa, empezando por nosotros.
